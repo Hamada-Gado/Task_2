@@ -18,7 +18,7 @@ const getUsers = async (req, res) => {
   
     for (let index = 0; index < users.length; index++) {
         const element = users[index];
-        console.log(element.id);
+        //console.log(element.id);
     }
     res.status(200).json(users)
   }
