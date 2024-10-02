@@ -52,7 +52,8 @@ Noha's groups:
 
 Nada's groups:
  ```
- mongodb+srv://atlasDB:atlasDB@cluster0.vt5cm.mongodb.net/
+If you are not using Orange: mongodb+srv://atlasDB:atlasDB@cluster0.vt5cm.mongodb.net/
+If you are using Orange: mongodb://atlasDB:atlasDB@cluster0-shard-00-00.vt5cm.mongodb.net:27017,cluster0-shard-00-01.vt5cm.mongodb.net:27017,cluster0-shard-00-02.vt5cm.mongodb.net:27017/?ssl=true&replicaSet=atlas-1qb2ed-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0
 ```
 
 Mabrouk's groups:
